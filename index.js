@@ -29,7 +29,7 @@ function updateHomeIp(ip) {
     if (error) {
       console.error(error);
     } else {
-      console.log(body);
+      console.log(body, '-', new Date());
     }
   });
 }
