@@ -10,6 +10,6 @@ npm start ip_name
 
 ## crontab
 ```
-*/10 * * * * cd /project/path && /path/to/npm start ip_name >> /project/logs/$(date '+%Y.%m').log
+*/10 * * * * cd /project/path && /path/to/node index.js ip_name >> /project/logs/`date '+\%Y.\%m'`.log
 ```
 
